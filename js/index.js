@@ -54,7 +54,7 @@ let paragraph= "Lorem Ipsum is simply dummy text of the printing and typesetting
 let counter = 0
 for(let i=0; i<paragraph.length;i++){
     console.log(paragraph[i])
-    if (paragraph[i] === ' e, t'){
+    if (paragraph[i] === 'e' && paragraph[i+1] === 't'){
         counter ++
     }
 }
